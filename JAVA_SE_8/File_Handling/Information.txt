@@ -1,9 +1,16 @@
 When to Use What?
-Scenario	Recommended Class
-Reading a binary file (e.g., image, PDF)	FileInputStream
-Writing a binary file	FileOutputStream
-Reading a small text file	FileReader
-Writing a small text file	FileWriter
-Reading a large text file efficiently	BufferedReader
-Writing a large text file efficiently	BufferedWriter
-Writing text with formatting	PrintWriter
+Scenario	                                                            Recommended Class
+
+Reading a binary file (e.g., image, PDF)                             	FileInputStream
+
+Writing a binary file	                                                FileOutputStream
+
+Reading a small text file	                                              FileReader
+
+Writing a small text file	                                              FileWriter
+
+Reading a large text file efficiently	                                BufferedReader
+
+Writing a large text file efficiently                                	BufferedWriter
+
+Writing text with formatting	                                          PrintWriter
