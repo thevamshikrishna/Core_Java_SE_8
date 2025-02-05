@@ -4,24 +4,21 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 public class Buffered_Streams {
-    public static void main(String[] args) throws Exception{
-        BufferedReader br=null;
-        BufferedWriter bw=null;
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = null;
+        BufferedWriter bw = null;
 
-        try{
-            br=new BufferedReader(new FileReader("C:\\Users\\VamshiNallavalli\\Downloads\\File.txt"));
-            bw=new BufferedWriter(new FileWriter("C:\\Users\\VamshiNallavalli\\Downloads\\Hello.txt"));
+        try {
+            br = new BufferedReader(new FileReader("C:\\Users\\VamshiNallavalli\\Downloads\\File.txt"));
+            bw = new BufferedWriter(new FileWriter("C:\\Users\\VamshiNallavalli\\Downloads\\Hello.txt"));
             String x;
-            while((x=br.readLine())!=null){
+            while ((x = br.readLine()) != null) {
                 bw.write(x);
                 bw.newLine();
             }
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println(e);
-        }
-
-        finally {
+        } finally {
             if (br != null) {
                 br.close(); // Close the BufferedReader
             }
