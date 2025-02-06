@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/Engineering_Digest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/OCP_Book" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/session" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/Method-Reference" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
