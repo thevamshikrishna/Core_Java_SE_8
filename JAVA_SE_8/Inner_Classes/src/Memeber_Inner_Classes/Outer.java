@@ -8,11 +8,10 @@ public class Outer {
         public int repeat=3;
         public void go(){
             for(int i=0;i<repeat;i++){
-                System.out.println(greeting);
+                System.out.println(greeting +i);
             }
         }
     }
-
     public void callInner(){
         Inner obj=new Inner();
         obj.go();

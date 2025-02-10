@@ -1,10 +1,10 @@
 package Memeber_Inner_Classes;
 
 public class A {
-    private int x=10;
-    class B{
+    private final int x=10;
+    private class B{
         private int x=20;
-         class C{
+        protected class C{
              private int x=30;
              public void allTheX(){
                  System.out.println(x);

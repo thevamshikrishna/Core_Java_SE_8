@@ -5,6 +5,7 @@ public class Outer {
 
     public void calculate(){
         final int width=20;
+      //  width=10;
         class Inner{                             //Inner class start
             public void multiply(){
                 System.out.println(length*width);

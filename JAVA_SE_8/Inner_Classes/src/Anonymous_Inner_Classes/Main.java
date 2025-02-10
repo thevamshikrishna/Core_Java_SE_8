@@ -30,7 +30,8 @@ public class Main
                 System.out.println("bike is Running!!!");
             }
         };
-        car.run();   bike.run();
+        car.run();
+        bike.run();
 
     }
 
