@@ -3,14 +3,10 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Compartor and Comparable" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10 Threads_and_Multithreading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7 Inner Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Compartor and Comparable" isTestSource="false" packagePrefix="Anonymous_Inner_Classes" />
       <sourceFolder url="file://$MODULE_DIR$/File_Handling" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/Engineering_Digest" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/OCP_Book" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/session" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/Method-Reference" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lambda Expressions/Using_Simple_Lambda/src/Functional_Interfaces" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
