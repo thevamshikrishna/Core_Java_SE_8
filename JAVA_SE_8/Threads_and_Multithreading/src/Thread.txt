@@ -1,0 +1,120 @@
+To make your program print a consistent and correct output, you need to prevent the race condition that occurs due to multiple threads updating count without synchronization.
+
+Solution: Use Synchronization
+There are multiple ways to fix this issue:
+
+✅ Option 1: Synchronized Method
+Using the synchronized keyword ensures that only one thread modifies count at a time.
+
+java
+Copy
+Edit
+public class Synchronization_in_Threads extends Thread {
+    static int count = 0;
+
+    public static void main(String[] args) throws InterruptedException {
+        Synchronization_in_Threads thread1 = new Synchronization_in_Threads();
+        Synchronization_in_Threads thread2 = new Synchronization_in_Threads();
+
+        thread1.start();
+        thread2.start();
+
+        thread1.join();
+        thread2.join();
+
+        System.out.println(count); // Always prints 200002
+    }
+
+    public void run() {
+        for (int i = 0; i <= 100000; i++) {
+            increment();
+        }
+    }
+
+    private synchronized void increment() {
+        count++;
+    }
+}
+🔹 Output will always be: 200002
+🔹 Downside: Synchronization adds some overhead, making execution slightly slower.
+
+✅ Option 2: Using AtomicInteger (Recommended for Performance)
+The AtomicInteger class from java.util.concurrent.atomic provides thread-safe atomic operations without needing synchronized.
+
+java
+Copy
+Edit
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class Synchronization_in_Threads extends Thread {
+    static AtomicInteger count = new AtomicInteger(0);
+
+    public static void main(String[] args) throws InterruptedException {
+        Synchronization_in_Threads thread1 = new Synchronization_in_Threads();
+        Synchronization_in_Threads thread2 = new Synchronization_in_Threads();
+
+        thread1.start();
+        thread2.start();
+
+        thread1.join();
+        thread2.join();
+
+        System.out.println(count.get()); // Always prints 200002
+    }
+
+    public void run() {
+        for (int i = 0; i <= 100000; i++) {
+            count.incrementAndGet(); // Atomic operation
+        }
+    }
+}
+🔹 Output will always be: 200002
+🔹 Faster than synchronized methods because it avoids locking overhead.
+
+✅ Option 3: Using a ReentrantLock
+If you need more control, you can use ReentrantLock, which provides explicit locking.
+
+java
+Copy
+Edit
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Synchronization_in_Threads extends Thread {
+    static int count = 0;
+    static ReentrantLock lock = new ReentrantLock();
+
+    public static void main(String[] args) throws InterruptedException {
+        Synchronization_in_Threads thread1 = new Synchronization_in_Threads();
+        Synchronization_in_Threads thread2 = new Synchronization_in_Threads();
+
+        thread1.start();
+        thread2.start();
+
+        thread1.join();
+        thread2.join();
+
+        System.out.println(count); // Always prints 200002
+    }
+
+    public void run() {
+        for (int i = 0; i <= 100000; i++) {
+            lock.lock();  // Acquire lock
+            try {
+                count++;
+            } finally {
+                lock.unlock(); // Release lock
+            }
+        }
+    }
+}
+🔹 Output will always be: 200002
+🔹 Provides more flexibility, e.g., tryLock() for non-blocking operations.
+
+🔹 Best Choice?
+Approach	Thread-Safety	Performance	Complexity
+synchronized	✅ Yes	⚡ Medium	🟢 Simple
+AtomicInteger	✅ Yes	🚀 Fastest	🟢 Simple
+ReentrantLock	✅ Yes	⚡ Medium	🔵 More control
+For most cases, AtomicInteger is the best choice because it's efficient and easy to use.
+
+Let me know if you need further clarification! 🚀
