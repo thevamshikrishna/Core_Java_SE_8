@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3260da55-65c8-4584-95b3-f2f09eeae1b7" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/behavioral/memento/PaintApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/behavioral/strategy/factory/BusCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/behavioral/strategy/factory/TruckCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/behavioral/strategy/factory/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/behavioral/strategy/model/EconomicDriving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/behavioral/visitor/BuildingInspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/abstractfactory/model/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/abstractfactory/model/graphiccard/impl/PowerfulGraphicCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/abstractfactory/model/graphiccard/impl/RegularGraphicCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/abstractfactory/model/laptop/LenovoLaptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/abstractfactory/model/processor/impl/PowerfulProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/builder/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/factorymethod/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/factorymethod/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/factorymethod/model/Enums/Seniority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/factorymethod/model/ItDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/prototype/PROTOTYPE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/prototype/model/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/prototype/model/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/simplefactory/adapter/GiftFactoryAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/simplefactory/adapter/GiftStoreAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/simplefactory/exception/GiftNotCreatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/singleton/diagram/singleton.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/singleton/model/CFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/singleton/model/CIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/creational/singleton/model/CTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/structural/bridge/BRIDGE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/structural/bridge/model/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/structural/bridge/model/engine/BoxerEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/structural/bridge/service/CarDealership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/structural/composite/diagram/composite-base structure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/structural/composite/model/alliance/Alliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/structural/composite/model/character/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Patterns/pattern/structural/composite/model/character/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/1.Learn the Basics/Strings and Methods/Strings/out/production/Strings/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/12.Functional Programming/Stream API/Streams.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/12.Functional Programming/Stream API/out/production/Streams/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/12.Functional Programming/Stream API/src/Creating_Stream_From_File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/out/production/Inner_Classes/Anonymous_Inner_Classes/AnonInner$SaleTodayOnly.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/out/production/Inner_Classes/Local_Inner_Class/Outer$1Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/out/production/Inner_Classes/Memeber_Inner_Classes/A$B$C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/out/production/Inner_Classes/Memeber_Inner_Classes/A$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/out/production/Inner_Classes/Memeber_Inner_Classes/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/out/production/Inner_Classes/Memeber_Inner_Classes/Outer$Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/out/production/Inner_Classes/Memeber_Inner_Classes/Outer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/src/Anonymous_Inner_Classes/AnonInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Inner_Classes/src/Static_Nested_Classes/Enclosing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Wrapper_Classes/Wrapper_Classes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Wrapper_Classes/out/production/Wrapper_Classes/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Basics of OOP/Classes and Objects/Wrapper_Classes/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Exception Handling/Exception_Handling_Complete/out/production/Exception_Handling_Complete/Checked_and_Unchecked.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Exception Handling/Exception_Handling_Complete/out/production/Exception_Handling_Complete/Example2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Exception Handling/Exception_Handling_Complete/src/Checked_and_Unchecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Exception Handling/Exception_Handling_Complete/src/Finally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Lambda Expressions/Using_Simple_Lambda/Using_Simple_Lambda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Lambda Expressions/Using_Simple_Lambda/out/production/Using_Simple_Lambda/inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Lambda Expressions/Using_Simple_Lambda/src/Engineering_Digest/Example/EngineeringStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/Lambda Expressions/Using_Simple_Lambda/src/session/ThreeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/More about OOP/Interfaces/Compartor and Comparable Interfaces/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/More about OOP/Interfaces/Compartor and Comparable Interfaces/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/2.Object Oriented Programming/More about OOP/Interfaces/Compartor and Comparable Interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/5.File Operations/File_Handling/CopyCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/5.File Operations/File_Handling/Creating_New_File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/5.File Operations/File_Handling/Practice_Questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Banking_Operations/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Engineering_Digest_Programs/out/production/Engineering_Digest/Life_Cycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Engineering_Digest_Programs/out/production/Engineering_Digest/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Engineering_Digest_Programs/src/Creating_Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Life_Cycle_Of_Thread/Life_Cycle_Of_Thread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Synchronization/Synchronized_Keyword_Example/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Synchronization/out/production/Synchronization/Synchronization/Synchronization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Synchronization/out/production/Synchronization/Thread_Creation/Counter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Thread_Creation/Thread_Keyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Thread_Creation/out/production/Thread_Creation/Thread_Creation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Multiple_Threading/Thread_Methods/thread_class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/7.Concurrency/Threads/Threading/src/Thread.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_SE_8/Complete Java RoadMap.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID Principles/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID Principles/RelationShips/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID Principles/RelationShips/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thevamshikrishna&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/thevamshikrishna/Core_Java_SE_8.git",
+    "accountId": "ea43ae32-0471-41b9-8d82-224f24842caa"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2vqU7OC2vFBIUYgmHAKB9UaTd2W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VamshiNallavalli/OneDrive - Atyeti Inc/Vamshi_Disc/Training/1.Core_Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3260da55-65c8-4584-95b3-f2f09eeae1b7" name="Changes" comment="" />
+      <created>1744871931722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744871931722</updated>
+      <workItem from="1744871932118" duration="548000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1744872109630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744872109630</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1744872615736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744872615736</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;JAVA_SE_8/Strings/Strings.iml" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+  </component>
+</project>
